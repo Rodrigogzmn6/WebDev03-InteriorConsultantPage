@@ -22,7 +22,7 @@ html {
 }
 
 /*HAMBURGER MENU*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     header {
         padding: 1.19rem 0.75rem;
     }
@@ -38,12 +38,7 @@ html {
     }
 
     .title {
-        border: 1px solid #fff;
         display: inline-block;
-        font-family: 'Crimson Pro', serif;
-        size: 0.88rem;
-        font-weight: 200;
-        padding: 0.5rem;
     }
 
     .hamburger-button {
@@ -63,28 +58,42 @@ html {
         display: flex;
         flex-direction: column;
         justify-content: stretch;
-        list-style: none;
         margin: 11.38rem 0;
         text-align: center;
         width: 100%;
     }
 
     ul li{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+/*SMALL SCREENS*/
+@media screen and (min-width: 0px) {
+    .title {
+        border: 1px solid #fff;
+        font-family: 'Crimson Pro', serif;
+        size: 0.88rem;
+        font-weight: 200;
+        padding: 0.5rem;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul li{
         font-family: 'Montserrat', sans-serif;
         font-size: 1.13rem;
         font-weight: 500;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
     }
 
     li.selected {
         text-decoration: underline;
         font-weight: 700;
     }
-}
 
-/*SMALL SCREENS*/
-@media screen and (min-width: 0px) {
     .main-content {
         margin-top: 2.38rem;
         padding: 0 0.75rem;
@@ -128,6 +137,7 @@ html {
         margin: -4rem 2.34rem 2.31rem;
         padding: 1.31rem 1.19rem;
         position: relative;
+        width: fit-content;
     }
 
     .author {
@@ -183,5 +193,48 @@ html {
 
     footer a:link, footer a:visited {
         color: #A9A9A9;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /*HEADER*/
+    header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 2.63rem 4.81rem;
+    }
+
+    .hamburger-button {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    ul li {
+        margin-left: 5.38rem;
+    }
+
+    /*MAIN CONTENT*/
+    .main-content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 4.81rem 6.5rem;
+        padding: 0;
+    }
+
+    .card {
+        width: fit-content;
+    }
+
+    .author {
+        width: fit-content;
+    }
+
+    .design-info {
+        margin: 0;
     }
 }
