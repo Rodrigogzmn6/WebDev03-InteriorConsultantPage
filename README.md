@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">404 Not Found Page</h1>
+<h1 align="center">Interior Design Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://rodrigogzmn6.github.io/WebDev01-404Page/">
+    <a href="https://rodrigogzmn6-interior-design.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://404-notfound-scarecrow.netlify.app/">
+    <a href="https://github.com/Rodrigogzmn6/WebDev03-InteriorConsultantPage">
       Solution
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](__finished-project/404%20not%20found.png)
+![screenshot](__finished-project/interior-consultant.png)
 
 ### Built With
 
@@ -43,7 +43,7 @@
 
 - HTML
 - CSS
-- [WOW.js](https://wowjs.uk/)
+- JavaScript
 
 ## Features
 
