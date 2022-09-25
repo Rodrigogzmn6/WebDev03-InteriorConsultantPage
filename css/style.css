@@ -34,7 +34,6 @@ html {
     }
 
     header.show {
-        display: inline-block;
         text-align: right;
     }
 
@@ -61,10 +60,13 @@ html {
     }
 
     ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
         list-style: none;
+        margin: 11.38rem 0;
         text-align: center;
         width: 100%;
-        margin: 11.38rem 0;
     }
 
     ul li{
@@ -81,6 +83,7 @@ html {
     }
 }
 
+/*SMALL SCREENS*/
 @media screen and (min-width: 0px) {
     .main-content {
         margin-top: 2.38rem;
@@ -121,7 +124,6 @@ html {
 
     .card {
         background-color: #181719;
-        border: 1px solid red;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         margin: -4rem 2.34rem 2.31rem;
         padding: 1.31rem 1.19rem;
